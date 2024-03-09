@@ -39,13 +39,14 @@
 }
 
 .container {
-  background-color: rgb(135, 238, 95);
-  color: #ff6a00;
+  background-color: rgb(177, 184, 174);
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 100px;
-  width: 500px;
-  margin-left: 500px;
-  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .button {
@@ -53,7 +54,4 @@
   
 }
 
-.text-heading {
-  background-color: #282c34;
-}
 
